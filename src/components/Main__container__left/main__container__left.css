@@ -1,0 +1,91 @@
+/* LEFT */
+
+.monobank__title {
+    width: 300px;
+    height: 45px;
+    margin-bottom: 110px;
+    margin-top: 30px;
+}
+
+.fund__logo {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-image: url("/images/jpg/fund-logo.png");
+    background-size: cover;
+    border: 0.1em solid rgba(0, 0, 0, 0.5);
+    margin-bottom: 18px;
+}
+
+.fund__title {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+}
+
+.fund__name {
+    text-align: center;
+    font-size: 12px;
+    width: 350px;
+}
+
+.fund__iban {
+    display: flex;
+    gap: 5px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.fund__iban .iban {
+    color: rgba(128, 128, 128, 0.6);
+}
+
+.fund__iban .number {
+    color: rgba(128, 128, 128, 1);
+}
+
+.fund__balance {
+    width: 435px;
+    height: 65px;
+    background-color: white;
+    border-radius: 18px;
+    display: flex;
+    overflow: hidden;
+}
+
+.fund__balance__left,
+.fund__balance__right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.balance__archive,
+.balance__up__arrow {
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+}
+
+.donated__money,
+.withdrawn__money {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.donated__money .donated__money__title,
+.withdrawn__money .withdrawn__money__title {
+    color: rgb(119, 119, 119);
+    font-size: 14px;
+}
+
+.donated__money .donated__money__amount,
+.withdrawn__money .withdrawn__money__amount {
+    font-weight: 600;
+    font-size: 15px;
+}

@@ -1,0 +1,29 @@
+.main__container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    height: 700px;
+    border-radius: 20px;
+    display: flex;
+    overflow: hidden;
+}
+
+.main__container__left,
+.main__container__right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main__container__left {
+    background-color: rgba(220, 221, 225, 1.0);
+}
+
+.main__container__right {
+    background-color: white;
+}
+
